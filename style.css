@@ -20,6 +20,8 @@
     height:70px;
     border-bottom:1px solid black;
     flex-wrap:wrap;
+    position:fixed;
+    top:0px;
     display:flex;
     justify-content:space-between;
     align-items:center;

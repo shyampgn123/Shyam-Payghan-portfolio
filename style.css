@@ -1,0 +1,369 @@
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  body{
+    font-family: 'Manrope', sans-serif;
+    width:100vw;
+  }
+  .main{
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+  }
+  header{
+    width:100%;
+    padding:20px;
+    height:70px;
+    border-bottom:1px solid black;
+    flex-wrap:wrap;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  header .logo{
+    width:100px;
+  }
+  .menu-bar{
+    display:none;
+    flex-direction:column;
+    position:absolute;
+    right:50px;
+    top:20px;
+    border:1px solid black;
+    padding:5px 20px;
+    gap:2px;
+    background:white;
+    border-radius:5px;
+  }
+  .menu-bar a{
+    text-decoration:none;
+    color:#42445A;
+    font-family:Arabic;
+  }
+  .menu-btn{
+    width:30px;
+  }
+  .home{
+    width:100%;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+  }
+  .b-img{
+    width:80%;
+  }
+  .intro{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    white-space:nowrap;
+    gap:2px;
+  }
+  .intro h1{
+    font-size:25px;
+    font-weight:300;
+    font-family:open sans;
+    letter-spacing:0.5px;
+  }
+  .dev-txt{
+    -webkit-text-stroke: 1px black;
+    color:white;
+    letter-spacing:1px;
+  }
+  .typewriter-text {
+  display: inline-block;
+  max-width:12rem;
+  overflow: hidden;
+  font-weight:600;
+  white-space: nowrap;
+  transform:translate(0px, 25%);
+  animation: typing 3s steps(30, end) 1 forwards;
+  position: relative;
+  padding-right: 2px; /* Space for cursor */
+}
+
+.typewriter-text::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: black;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from, to { opacity: 1 }
+  50% { opacity: 0 }
+}
+.intro-p{
+  font-family:manrope;
+  font-size:10px;
+}
+.link-btns{
+  width:200px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+.link-div{
+  width:100%;
+  display:flex;
+  justify-content:left;
+}
+.link-btns a{
+  padding:5px;
+  border-radius:3px;
+  border:1.5px solid black;
+  text-decoration:none;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.link-btns a img{
+  width:20px;
+}
+    .skills-grid {
+      width:100%;
+      aspect-ratio:1/2.5;
+      display:grid;
+      grid-template-columns:50% 50%;
+      place-items:center;
+    }
+    .skill-card {
+      width:80%;
+      height:80%;
+      border:2px solid black;
+      border-radius:5px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      gap:10px;
+      transform-style: preserve-3d;
+      transition: transform 0.6s ease;
+    }
+    .skill-card:hover{
+      transform: rotateX(15deg) rotateY(15deg) translateZ(10px);
+    }
+  .skill-card i{
+    font-size:50px;
+  }
+  
+  .skill-card p{
+    font-weight:15px;
+    font-weight:500;
+    font-family:Poppins;
+  }
+  .about{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+  }
+  .about-me-img{
+    width:80%;
+    margin:auto;
+  }
+  .about h1{
+    font-weight:500;
+    font-family:manrope;
+    margin-bottom:10px;
+    white-space:nowrap;
+  }
+  .about p{
+    font-family:manrope;
+    font-weight:600;
+    color:#595C74;
+  }
+  .skill-title{
+    font-family:manrope;
+    margin-bottom:-20px;
+    white-space:nowrap;
+  }
+  .experience{
+    background:black;
+    color:white;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .experience .headline{
+    font-weight:500;
+    font-family:manrope;
+    padding:20px;
+    white-space:nowrap;
+  }
+  .projects{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .project{
+    width:90%;
+    border-radius:20px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    font-family:poppins;
+    margin:10px 0px 10px 0px;
+  }
+  .project-img{
+    width:100%;
+    object-fit: cover;
+    height:250px;
+  }
+  .project p{
+    color:#A1A3BA;
+  }
+  .contact{
+    width:100%;
+    display:flex;
+    padding:20px;
+    flex-direction:column;
+  }
+  .contact h1{
+    font-weight:500;
+    font-family:manrope;
+    padding:20px;
+    margin:auto;
+    white-space:nowrap;
+  }
+  .contact input, textarea{
+    width:100%;
+    height:50px;
+    padding:0px 10px;
+    border:2px solid black;
+    border-radius:10px;
+    font-size:15px;
+  }
+  .contact textarea{
+    height:100px;
+    padding:10px 10px;
+  }
+  .contact form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+  }
+  .gt-btn{
+    width:150px;
+    height:40px;
+    background:black;
+    border-radius:5px;
+    color:white;
+    font-weight:600;
+    font-family:manrope;
+  }
+  .contact .link-btns{
+    padding:20px 0px;
+  }
+  .contact h2{
+    font-family:open sans;
+    font-size:30px;
+    font-weight:1000;
+  }
+  .contact h2 span{
+    -webkit-text-stroke:1px black;
+    color:white;
+  }
+  .contact p{
+    font-family:Poppins;
+    color:#3B3D4F;
+    margin:10px 0px;
+  }
+  .icn{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-family:manrope;
+    margin:5px 0px;
+  }
+  footer{
+    background-color: #111827;
+    color: #f9fafb;
+    width:100%;
+    padding:20px 0px;
+    text-align: center;
+  }
+  @media(min-width: 760px){
+    .main{
+      font-size:10px;
+    }
+    .skills-grid{
+      display:flex;
+      flex-wrap:wrap;
+      height:400px;
+      gap:20px;
+      justify-content:center;
+      align-items:center;
+    }
+    .skill-card{
+      width:150px;
+      height:150px;
+    }
+    .skill-title{
+      font-size:40px;
+    }
+    .home{
+      flex-direction:raw;
+    }
+    .b-img{
+      width:500px;
+      transform:translate(50%, 0%);
+    }
+    .home .intro span{
+      min-width:300px;
+    }
+    .main{
+      overflow:hidden;
+    }
+    .home .intro h1{
+      font-size:40px;
+    }
+    .home .intro{
+      position:absolute;
+      top:140px;
+      left:40px;
+    }
+    .about img{
+      width:50%;
+    }
+    .about h1{
+      font-size:50px;
+    }
+    .experience .headline{
+      font-size:50px;
+      margin-bottom:-50px;
+    }
+    .project{
+      width:60%;
+      min-width:400px;
+    }
+    .projects{
+      display:flex;
+      flex-direction:row;
+      width:100%;
+      height:500px;
+      overflow-y:none;
+      overflow-x:scroll;
+      gap:40px;
+    }
+    .contact h2{
+      font-size:15px;
+    }
+  }

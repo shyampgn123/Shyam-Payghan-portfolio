@@ -17,7 +17,7 @@ function themeChange() {
 const main = document.querySelector(".main")
 const cur = document.querySelector(".cur")
 
-main.addEventListener("touchmove", (e) => {
+main.addEventListener("click", (e) => {
   const touch = e.touches[0];
   cur.style.left = `${touch.clientX}px`;
   cur.style.top = `${touch.clientY}px`;

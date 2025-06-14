@@ -632,6 +632,9 @@ nav{
   font-size:3vw;
   gap:1vw;
 }
+.cur{
+  display:none;
+}
 }
 @media (min-width: 992px) {
 .menu-icon{

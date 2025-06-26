@@ -444,6 +444,7 @@ nav{
    flex-direction:column-reverse;
    justify-content:center;
    gap:10vh;
+   transform:translate(0, 0);
  } 
  nav{
    height:7vh;

@@ -505,7 +505,7 @@ nav{
   font-size:7vw;
 }
 .about{
-  height:130vh;
+  height:auto;
 }
 .about-info .heading{
   padding:0 5vw;
@@ -515,7 +515,7 @@ nav{
 }
 .about-info{
   flex-direction:column;
-  height:100dvh;
+  height:auto;
   align-items:start;
   justify-content:start;
 }
@@ -594,7 +594,7 @@ nav{
   align-items:center;
 }
 .contact{
-  height:75dvh;
+  height:auto;
 }
 .contact-page, .contact-info{
   width:90vw;

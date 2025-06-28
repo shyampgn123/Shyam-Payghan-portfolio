@@ -3,7 +3,10 @@
   padding:0px;
   box-sizing:border-box;
 }
-
+::selection {
+  color: #FF6700;
+  background-color: #fffacd;
+}
 :root{
   --bg:white;
   --clr:black;

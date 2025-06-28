@@ -14,10 +14,16 @@ function themeChange() {
   themeState = isDark ? 1 : 0;
 }
 
+// Detect system theme on first load
+const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+if (prefersDark) {
+  themeState = 0; //  dark
+  themeChange();  // switch to dark mode
+}
+
 const main = document.querySelector(".main")
 const cur = document.querySelector(".cur")
-
-
 
 
 main.addEventListener("mousemove", (e) => {

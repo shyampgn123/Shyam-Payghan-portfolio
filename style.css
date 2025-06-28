@@ -593,6 +593,8 @@ nav{
 .contacts{
   flex-direction:column;
   align-items:center;
+  transform:translate(0, 0);
+  height:auto;                  
 }
 .contact{
   height:auto;

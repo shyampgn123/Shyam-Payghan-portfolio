@@ -261,10 +261,11 @@ nav{
   padding:0 5vw;
 }
 .projects{
-  height:60%;
+  height:70%;
+  
 }
 .exper{
-  height:35%;
+  height:30%;
   width:100%;
   padding-top:3vw;
 }
@@ -681,7 +682,7 @@ nav{
   font-size:10vw;
 }
 .experience{
-  height:auto;
+  height:70vh;
 }
 .exp-dis{
   margin-top:2vw;

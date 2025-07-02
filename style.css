@@ -552,7 +552,7 @@ nav{
   font-size:10vw;
 }
 .experience{
-  height:auto;
+  height:60vh;
 }
 .exp-dis{
   margin-top:2vw;
@@ -596,7 +596,7 @@ nav{
   height:auto;
 }
 .contact{
-  height:auto;
+  height:80vw;
 }
 .contact-page, .contact-info{
   width:90vw;

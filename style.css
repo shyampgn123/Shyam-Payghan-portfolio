@@ -316,7 +316,7 @@ nav{
 }
 .pro{
   min-width:30vw;
-  height:100%;
+  height:80%;
   overflow:hidden;
   border-radius:2vw;
   display:flex;
@@ -661,7 +661,7 @@ nav{
   flex-direction:column;
   gap:1vw;
   padding:0;
-  height:50vh;
+  height:55vh;
 }
 .skills{
   padding:0;
@@ -675,7 +675,7 @@ nav{
   font-size:10vw;
 }
 .experience{
-  height:70vh;
+  height:auto;
 }
 .exp-dis{
   margin-top:2vw;

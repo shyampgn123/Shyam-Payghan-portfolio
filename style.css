@@ -364,6 +364,7 @@ justify-content:center;
 gap:1vw;
 height:40vw;
 display:flex;
+padding:0 5vw;
 }
 .contact-page, .contact-info{
 width:100%;

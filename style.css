@@ -255,14 +255,16 @@ nav{
 }
 .experience{
   width:100vw;
-  height:80vw;
+  height:75vw;
   display: flex;
   flex-direction:column;
   padding:0 5vw;
 }
-
-.projects, .exper{
-  width:100%;
+.projects{
+  height:70%;
+}
+.exper{
+  width:30%;
   padding-top:3vw;
 }
 .exper{
@@ -658,7 +660,7 @@ nav{
   margin:5vw 0;
 }
 .skills .heading{
-  margin-bottom:5vw;
+  margin-bottom:5vh;
 }
 .skill{
   flex-direction:column;
@@ -690,7 +692,7 @@ nav{
   font-size:2vw;
 }
 .projects{
-  height:40vh;
+  height:auto;
 }
 .project{
   flex-direction:column;

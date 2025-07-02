@@ -703,7 +703,7 @@ nav{
 }
 .project{
   flex-direction:column;
-  height:50vh;
+  height:80%;
   overflow-x: scroll;
   flex-wrap: wrap;
   gap:4vw;

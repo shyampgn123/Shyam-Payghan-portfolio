@@ -265,7 +265,7 @@ nav{
   
 }
 .exper{
-  height:30%;
+  max-height:30%;
   width:100%;
   padding-top:3vw;
 }
@@ -682,7 +682,7 @@ nav{
   font-size:10vw;
 }
 .experience{
-  height:70vh;
+  height:90vh;
 }
 .exp-dis{
   margin-top:2vw;
@@ -698,7 +698,7 @@ nav{
 }
 .project{
   flex-direction:column;
-  height:40vh;
+  height:50vh;
   overflow-x: scroll;
   flex-wrap: wrap;
   gap:4vw;

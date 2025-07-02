@@ -269,6 +269,9 @@ nav{
   width:100%;
   padding-top:3vw;
 }
+.exper .heading{
+  margin-top:4vw;
+}
 .exper{
   display:flex;
   justify-content:center;

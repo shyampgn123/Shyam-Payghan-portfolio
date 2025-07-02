@@ -258,7 +258,7 @@ nav{
 }
 .experience{
   width:100vw;
-  height:58vw;
+  height:50vh;
   display: flex;
   flex-direction:column;
   padding:0 5vw;
@@ -604,7 +604,7 @@ nav{
 }
 .contact-page, .contact-info{
   width:90vw;
-  height:30vh;
+  height:auto;
 }
 .contact-page input, textarea{
   height:4vh;

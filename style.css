@@ -352,6 +352,7 @@ nav{
 .contacts{
   width:100vw;
   align-items:center;
+  height:40vw;
   display:flex;
 }
 .contact-page, .contact-info{
@@ -593,10 +594,10 @@ nav{
 .contacts{
   flex-direction:column;
   align-items:center;
+  height:100vh;
 }
 .contact{
   height:auto;
-  transform:translate(0, 0);
 }
 .contact-page, .contact-info{
   width:90vw;

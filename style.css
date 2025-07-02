@@ -751,6 +751,7 @@ margin-bottom:5vh;
 .contact-page input, textarea{
 height:4vh;
 font-size:2.4vw;
+margin-bottom:2vw;
 }
 .contact-page textarea{
 height:9vh;
@@ -759,9 +760,6 @@ font-size:2.4vw;
 .c-handels{
 height:5vh;
 font-size:6vw;
-}
-.contact-page form{
-  gap:0.5vh;
 }
 .c-handels button{
 height:3vh;

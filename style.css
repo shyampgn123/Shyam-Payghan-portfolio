@@ -255,16 +255,17 @@ nav{
 }
 .experience{
   width:100vw;
-  height:70vw;
+  height:65vw;
   display: flex;
   flex-direction:column;
   padding:0 5vw;
 }
 .projects{
-  height:65%;
+  height:60%;
 }
 .exper{
   height:35%;
+  width:100%;
   padding-top:3vw;
 }
 .exper{
@@ -696,6 +697,7 @@ nav{
 }
 .project{
   flex-direction:column;
+  height:40vh;
   overflow-x: scroll;
   flex-wrap: wrap;
   gap:4vw;

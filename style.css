@@ -256,11 +256,10 @@ nav{
 .experience{
   width:100vw;
   height:65vw;
+  justify-content:space-between;
   display: flex;
   flex-direction:column;
-  justify-content:center;
   padding:0 5vw;
-  gap:5vw;
 }
 .projects{
   height:60%;

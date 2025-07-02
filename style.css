@@ -255,7 +255,7 @@ nav{
 }
 .experience{
   width:100vw;
-  height:58vw;
+  height:70vw;
   display: flex;
   flex-direction:column;
   padding:0 5vw;
@@ -310,12 +310,13 @@ nav{
   width:100%;
   height:100%;
   display:flex;
+  overflow-x:scroll;
   align-items:center;
   gap:2vw;
 }
 .pro{
-  min-width:20vw;
-  height:80%;
+  min-width:30vw;
+  height:100%;
   overflow:hidden;
   border-radius:2vw;
   display:flex;
@@ -335,13 +336,13 @@ nav{
   width:100%;
 }
 .pro-info h1{
-  font-size:1vw;
+  font-size:1.5vw;
 }
 .pro-info p{
-  font-size:0.5vw;
+  font-size:0.7vw;
 }
 .pro-info span{
-  font-size:2vw;
+  font-size:2.5vw;
   text-decoration:none;
   color:var(--clr);
 }
@@ -686,7 +687,7 @@ nav{
   font-size:2vw;
 }
 .projects{
-  height:60vh;
+  height:40vh;
 }
 .project{
   flex-direction:column;
@@ -716,10 +717,10 @@ nav{
   flex-direction:column;
   align-items:center;
   transform:translate(0, 0);
-  height:50vh;                  
+  height:80vh;                  
 }
 .contact{
-  height:60vh;
+  height:auto;
 }
 .contact-page, .contact-info{
   width:90vw;

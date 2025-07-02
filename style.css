@@ -255,7 +255,7 @@ nav{
 }
 .experience{
   width:100vw;
-  height:70vw;
+  height:80vw;
   display: flex;
   flex-direction:column;
   padding:0 5vw;
@@ -657,6 +657,9 @@ nav{
 .skills, .project, .contact .heading{
   margin:5vw 0;
 }
+.skills .heading{
+  margin-bottom:5vw;
+}
 .skill{
   flex-direction:column;
   gap:1vw;
@@ -665,7 +668,6 @@ nav{
 }
 .skills{
   padding:0;
-  height:55vh;
 }
 .skill div{
   width:22vw;
@@ -676,7 +678,7 @@ nav{
   font-size:10vw;
 }
 .experience{
-  height:75vh;
+  height:auto;
 }
 .exp-dis{
   margin-top:2vw;
@@ -718,7 +720,7 @@ nav{
   flex-direction:column;
   align-items:center;
   transform:translate(0, 0);
-  height:70vh;                  
+  height:auto;                  
 }
 .contact{
   height:auto;

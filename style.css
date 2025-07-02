@@ -261,11 +261,11 @@ nav{
   padding:0 5vw;
 }
 .projects{
-  height:70%;
+  max-height:65%;
   
 }
 .exper{
-  max-height:30%;
+  max-height:35%;
   width:100%;
   padding-top:3vw;
 }

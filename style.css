@@ -360,6 +360,8 @@ height:40vw;
 .contacts{
 width:100vw;
 align-items:center;
+justify-content:center;
+gap:1vw;
 height:40vw;
 display:flex;
 }

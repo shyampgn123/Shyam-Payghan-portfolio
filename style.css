@@ -15,9 +15,6 @@ body{
   color:var(--clr);
   background:var(--bg);
 }
-body::selection {
-  background-color:#FF6700; 
-}
 .main{
   width:100vw;
   position:relative;
@@ -71,7 +68,7 @@ nav{
   border-radius:50px;
   -webkit-backdrop-filter: invert(1);
   backdrop-filter: invert(1);
-  position:absolute;
+  position:fixed;
   top:20px;
   left:20px;
   z-index: 1;
@@ -258,7 +255,7 @@ nav{
 }
 .experience{
   width:100vw;
-  height:50vh;
+  height:58vw;
   display: flex;
   flex-direction:column;
   padding:0 5vw;
@@ -350,7 +347,7 @@ nav{
 }
 .contact{
   width:100vw;
-  height:auto;
+  height:40vw;
 }
 .contacts{
   width:100vw;
@@ -443,11 +440,11 @@ nav{
 }
 @media (max-width: 991px) {
  .home{
-   height:100vh;
+   height:auto;
    flex-direction:column-reverse;
    justify-content:center;
    gap:10vh;
-   transform:translate(0, 0);
+   transform:translate(0, 0)
  } 
  nav{
    height:7vh;
@@ -555,7 +552,7 @@ nav{
   font-size:10vw;
 }
 .experience{
-  height:70vh;
+  height:auto;
 }
 .exp-dis{
   margin-top:2vw;
@@ -567,7 +564,7 @@ nav{
   font-size:2vw;
 }
 .projects{
-  height:60vh;
+  height:auto;
 }
 .project{
   flex-direction:column;
@@ -596,15 +593,14 @@ nav{
 .contacts{
   flex-direction:column;
   align-items:center;
-  transform:translate(0, 0);
-  height:50vh;                  
 }
 .contact{
-  height:60vh;
+  height:auto;
+  transform:translate(0, 0);
 }
 .contact-page, .contact-info{
   width:90vw;
-  height:30vh;
+  height:auto;
 }
 .contact-page input, textarea{
   height:4vh;
@@ -637,9 +633,6 @@ nav{
 .contact-info .msg h2{
   font-size:3vw;
   gap:1vw;
-}
-.cur{
-  display:none;
 }
 }
 @media (min-width: 992px) {

@@ -685,7 +685,7 @@ nav{
   font-size:10vw;
 }
 .experience{
-  height:80vh;
+  height:70vh;
   justify-content:center;
   gap:5vh;
 }
@@ -733,7 +733,7 @@ nav{
   height:100vh;                  
 }
 .contact{
-  height:auto;
+  height:100vh;
 }
 .contact-page, .contact-info{
   width:90vw;

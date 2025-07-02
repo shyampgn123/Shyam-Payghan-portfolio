@@ -264,9 +264,6 @@ nav{
 .projects{
   height:60%;
 }
-.experience .headline{
-  margin-top:5vw;
-}
 .exper{
   height:30%;
   width:100%;
@@ -275,7 +272,7 @@ nav{
 .exper{
   display:flex;
   justify-content:center;
-  gap:3vw;
+  gap:0.5vw;
   align-items:center;
   flex-direction:column;
 }

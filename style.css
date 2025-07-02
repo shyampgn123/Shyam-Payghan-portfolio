@@ -685,7 +685,7 @@ nav{
   font-size:10vw;
 }
 .experience{
-  height:70vh;
+  height:100vh;
   justify-content:center;
   gap:5vh;
 }
@@ -730,17 +730,17 @@ nav{
   flex-direction:column;
   align-items:center;
   transform:translate(0, 0);
-  height:100vh;                  
+  height:auto;                  
 }
 .contact{
-  height:100vh;
+  height:auto;
 }
 .contact-page, .contact-info{
   width:90vw;
   height:30vh;
 }
-.exper{
-  justify-content:space-between;
+.exper .heading{
+  margin-bottom:5vh;
 }
 .contact-page input, textarea{
   height:4vh;
